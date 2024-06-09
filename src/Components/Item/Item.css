@@ -48,8 +48,9 @@
 .item img {
   width: 280px;
   height: 320px;
+  box-shadow: 7px 7px 17px -2px black;
+  border-radius: 20px;
   margin-left: 20px;
-
 }
 
 .item-price-new {

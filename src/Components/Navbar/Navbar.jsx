@@ -9,6 +9,9 @@ import { Link } from 'react-router-dom';
 import { ShopContext } from '../../Context/ShopContext';
 import nav_dropdown from '../Assets/chevron.png'
 
+import Search from '../Search/Search';
+import search_icon from '../Assets/search (2).png'
+
 export const Navbar = () => {
 
   const [menu, setMenu] = useState("shop");
@@ -23,9 +26,11 @@ export const Navbar = () => {
   return (
     <div className='navbar'>
 
+      {/* <Search search_icon={search_icon}></Search> */}
+
       <div className="nav-logo">
         <img className='logo' src={logo} alt="" />
-        <p>SHOPPER</p>
+        <p>StyleStreet</p>
       </div>
 
       <img className='nav-dropdown' onClick={dropdown_togle} src={nav_dropdown} alt="" />

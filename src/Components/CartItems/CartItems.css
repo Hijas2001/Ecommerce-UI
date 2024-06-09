@@ -88,11 +88,13 @@
     height: 58px;
     outline: none;
     border: none;
-    background: #ff5a5a;
+    background: #C95CC5;
     color: #fff;
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+    box-shadow: 7px 7px 17px -2px black;
+    border-radius: 20px;
 }
 
 .cartitems-promocode {
